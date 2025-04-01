@@ -1,8 +1,8 @@
 {
-  "name": "react-terminal",
-  "version": "v1.4.5",
+  "name": "react-iterminal",
+  "version": "1.4.5",
   "description": "React component that renders a terminal",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -92,5 +92,9 @@
     ],
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
+  },
+  "directories": {
+    "example": "example",
+    "test": "tests"
   }
 }
